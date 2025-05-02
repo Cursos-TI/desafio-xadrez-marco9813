@@ -21,5 +21,16 @@ int main() {
 
     }while ( r <= 8);// verifica a condição se for verdadeira continua o loop, se for falsa o loop termina
 
+    // Movimento do Cavalo
+    int movimento = 1;
+    
+    while (movimento--){ // aqui vai executar 1 vez, depois faz o decremento aonde o movimento se torna 0 ai a condição é falsa e termina a execução
+
+        for (int i = 1; i <= 2; i++){
+            printf("Baixo\n"); // executa o printf duas vezes
+        }
+        printf("Esquerda\n");// executa 1 vez
+    }
+
     return 0;
 }
