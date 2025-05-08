@@ -28,11 +28,14 @@ void moverRainha(int casas){
 
 int main() {
     // movimento da torre
-    moverTorre(5);
+    moverTorre(5); // aqui é quantas vezes o código vai rodar
+    printf("\n");// para pular linha
     // Movendo o bispo 5 casas para cima, direita
     moverBispo(5);
+    printf("\n");
     // movendo a rainha 8 casas a esquerda
     moverRainha(8);
+    printf("\n");
 
     // Movimento do Cavalo
     int movimento = 1;
