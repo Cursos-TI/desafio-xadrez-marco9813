@@ -39,7 +39,7 @@ int main() {
     
     while (movimento--){ // aqui vai executar 1 vez, depois faz o decremento aonde o movimento se torna 0 ai a condição é falsa e termina a execução
 
-        for (int i = 1, j = 2; i <= j; i++){ // aqui temos multiplas variaveis aonde a condição va ser verdadeira duas vezes
+        for (int i = 0, j = 2; i <= j; i++, j--){ // aqui temos multiplas variaveis aonde a condição va ser verdadeira duas vezes
             printf("Cima \n"); // executa o printf duas vezes
         }
         printf("Direita \n");// executa 1 vez
